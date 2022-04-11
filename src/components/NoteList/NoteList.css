@@ -1,0 +1,7 @@
+.flex_box__container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 100px;
+	row-gap: 20px;
+}

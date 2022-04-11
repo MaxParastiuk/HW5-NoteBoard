@@ -1,0 +1,27 @@
+.flex_box__item {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	align-self: end;
+}
+
+.text_area {
+	overflow: hidden;
+	background-color: #fff;
+	color: #222;
+	font-size: 24px;
+	resize: none;
+	line-height: 40px;
+	padding-left: 100px;
+	background-image: url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png),
+		url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+	background-repeat: repeat-y, repeat;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: 0px 2px 14px #000;
+	box-shadow: 0px 2px 14px #000;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
